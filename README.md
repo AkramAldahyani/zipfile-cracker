@@ -1,7 +1,6 @@
 # 🔐 ZIP 4-Digit Brute-Force Cracker v2.0
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows%2FLinux%2FMac-lightgrey)
 ![Termcolor](https://img.shields.io/badge/Requires-termcolor-yellow)
 
