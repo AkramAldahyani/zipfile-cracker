@@ -38,18 +38,17 @@ A powerful yet ethical tool for recovering lost 4-digit ZIP passwords with enhan
 ### 1. Install Dependencies
 ```bash
 # Install required package with colorful output
->> pip install termcolor
+pip install termcolor
 ```
 ### 2. Get the Script
-# Clone and enter directory
 ```bash
->> git clone https://github.com/AkramAldahyani/zipfile-cracker
->> cd zip-cracker
+git clone https://github.com/AkramAldahyani/zipfile-cracker
+cd zip-cracker
 ```
 ### 3. Run the Cracker
 ```bash
 # Execute with Python 3
->> python3 app.py
+python3 app.py
 ```
 
 ---
