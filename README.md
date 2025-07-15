@@ -38,35 +38,19 @@ A powerful yet ethical tool for recovering lost 4-digit ZIP passwords with enhan
 ### 1. Install Dependencies
 ```bash
 # Install required package with colorful output
-pip install termcolor && echo -e "\033[1;32m✔ Successfully installed dependencies\033[0m"
+>> pip install termcolor
 ```
 ### 2. Get the Script
 # Clone and enter directory
-```dif
-git clone https://github.com/yourusername/zip-cracker.git && \
-cd zip-cracker && \
-echo -e "\033[1;34m✔ Repository cloned successfully\033[0m"
+```bash
+>> git clone https://github.com/AkramAldahyani/zipfile-cracker
+>> cd zip-cracker
 ```
 ### 3. Run the Cracker
 ```bash
 # Execute with Python 3
-python3 app.py
+>> python3 app.py
 ```
 
 ---
-
-## 🎯 Live Demo Output
-
-+ ⏳ Progress: 25.0% | Trying: 2500
-+ ⏳ Progress: 50.0% | Trying: 5000
-+ ⏳ Progress: 75.0% | Trying: 7500
-
-++ 🎉 CRACK SUCCESSFUL! ++
-🔑 Password found: 8265
-📁 Extracted to: /home/user/documents
-⏱ Duration: 14.23 sec
-💾 Attempts: 8266
-
-+ Files extracted successfully!
-- No errors detected
 
