@@ -1,51 +1,39 @@
-# 🔐 ZIP 4-Digit Brute-Force Cracker
+# 🔐 ZIP 4-Digit Brute-Force Cracker v2.0
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.7+-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Any-lightgrey)
+![Platform](https://img.shields.io/badge/Platform-Windows%2FLinux%2FMac-lightgrey)
+![Termcolor](https://img.shields.io/badge/Requires-termcolor-yellow)
 
-This Python script attempts to extract a password-protected ZIP file using a brute-force approach with all possible 4-digit numeric combinations (`0000`–`9999`).
+A powerful yet ethical tool for recovering lost 4-digit ZIP passwords with enhanced tracking and visual feedback.
 
----
-
-## ⚠️ Legal Disclaimer
-
-<div style="background-color: #fff3cd; padding: 15px; border-left: 5px solid #ffc107; margin-bottom: 20px;">
-
-🚨 **This tool is for educational and ethical use only**  
-✔ Use only to recover **your own** password-protected files  
-❌ **Never** use for unauthorized access or illegal activities  
-🔒 The author assumes **no liability** for misuse  
-
+<div align="center">
+  <img src="https://i.imgur.com/JK7wLn5.gif" width="600" alt="Demo Animation">
 </div>
 
+## 🚀 Features
+
+| Feature | Description |
+|---------|-------------|
+| **🎨 Colorful Interface** | Vibrant terminal output with progress visualization |
+| **⏱ Performance Metrics** | Tracks time elapsed and attempts count |
+| **📊 Progress Tracking** | Real-time percentage completion updates |
+| **🛡 Error Handling** | Handles corrupted files and invalid paths gracefully |
+| **📦 Auto-extraction** | Successfully extracted files are saved automatically |
+
+## ⚠️ Ethical Disclaimer
+
+```diff
+- WARNING: This tool is for LEGITIMATE USE ONLY
++ Acceptable uses:
+✓ Recovering your own forgotten passwords
+✓ Educational cybersecurity research
+✓ Authorized penetration testing
+
+- Illegal uses:
+✗ Accessing others' protected files without permission
+✗ Any unauthorized security testing
+
 ---
 
-## 🎨 Features
-
-- 🕵️‍♂️ Tries all 4-digit combinations (`0000` to `9999`)
-- 📊 Shows progress every 500 attempts
-- 🎉 Automatically stops when password is found
-- 🛠 Simple to modify for longer passwords
-
----
-
-## 🛠 Requirements
-
-- <span style="color: #4CAF50;">**Python 3.x**</span> or later
-- <span style="color: #2196F3;">**zipfile**</span> module (included in standard library)
-
----
-
-## 🚀 Quick Start
-
-```bash
-# Clone the repository (if needed)
-git clone https://github.com/yourusername/zipfile-cracker.git
-cd zipfile-cracker
-
-# Run the script
-python3 app.py
-
---- 
 
